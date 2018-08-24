@@ -28,7 +28,7 @@ namespace demo
                     ++xzm;
                 else if (char.IsNumber(textBox1.Text[i]))//判断是不是数字
                     ++sz;
-                else           //计算其他字符个数
+                else           //计算其他字符个数   clone！！！
                     ++qt;
 
             }
