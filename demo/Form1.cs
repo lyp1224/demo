@@ -28,7 +28,7 @@ namespace demo
                     ++xzm;
                 else if (char.IsNumber(textBox1.Text[i]))//判断是不是数字
                     ++sz;
-                else
+                else           //其他字符
                     ++qt;
 
             }
