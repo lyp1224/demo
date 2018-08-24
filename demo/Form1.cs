@@ -24,9 +24,9 @@ namespace demo
             {
                 if (char.IsUpper(textBox1.Text[i]))//判断是不是大写
                     ++dzm;
-                else if (char.IsLower(textBox1.Text[i]))
+                else if (char.IsLower(textBox1.Text[i]))//判断是不是小写
                     ++xzm;
-                else if (char.IsNumber(textBox1.Text[i]))
+                else if (char.IsNumber(textBox1.Text[i]))//判断是不是数字
                     ++sz;
                 else
                     ++qt;
@@ -34,7 +34,7 @@ namespace demo
             }
 
 
-            label2.Text = "大写字母有" + dzm + "个，小写字母有" + xzm + "个,数字" + sz + "个，其他有" + qt + "个"; //显示再
+            label2.Text = "大写字母有" + dzm + "个，小写字母有" + xzm + "个,数字" + sz + "个，其他有" + qt + "个"; //显示在窗体上
         }
     }
 }
